@@ -1,0 +1,35 @@
+.site-wrapper {
+    margin-top: 50px;
+}
+.space {
+    margin-top: 50px;
+}
+
+.hide {
+    display: none;
+}
+
+.text-wrap {
+	word-wrap: break-word;
+	word-break: break-all;
+}
+
+#update-message-wrapper {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.25)
+
+}
+#update-message {
+    width: 50%;
+    height: 250px;
+    left: 25%;
+    top: 25%;
+    position: relative;
+    padding: 2em;
+
+}
